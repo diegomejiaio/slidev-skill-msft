@@ -96,6 +96,7 @@ Presenter notes go here
 | PlantUML diagrams | `` ```plantuml `` | [diagram-plantuml](references/diagram-plantuml.md) |
 | LaTeX math | `$inline$` or `$$block$$` | [diagram-latex](references/diagram-latex.md) |
 | Excalidraw drafts | `<Excalidraw drawFilePath="..." />` (addon, `pnpm add slidev-addon-excalidraw`) | [diagram-excalidraw](references/diagram-excalidraw.md) |
+| Hand-drawn sketch diagrams | `rough.svg(el)` in a Vue component (`npm i roughjs`) | [diagram-rough-sketch](references/diagram-rough-sketch.md) |
 
 ### Layout & Styling
 

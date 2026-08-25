@@ -51,3 +51,9 @@ Works like v-click:
   Custom marker
 </span>
 ```
+
+## Related
+
+`v-mark` annotates existing text via **rough-notation**. To draw entire
+hand-drawn diagrams (boxes, arrows, arcs) with **rough.js**, see
+[diagram-rough-sketch](diagram-rough-sketch.md).
