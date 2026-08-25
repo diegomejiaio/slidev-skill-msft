@@ -12,7 +12,7 @@ Web-based slides maker built on Vite, Vue, and Markdown.
 - Technical presentations or slidedecks with live code examples
 - Syntax-highlighted code snippets with animations
 - Interactive demos (Monaco editor, runnable code)
-- Mathematical equations (LaTeX) or diagrams (Mermaid, PlantUML)
+- Mathematical equations (LaTeX) and diagrams (hand-authored SVG/Vue, Excalidraw, Mermaid)
 - Record presentations with presenter notes
 - Export to PDF, PPTX, or host as SPA
 - Code walkthroughs for developer talks or workshops
@@ -90,13 +90,30 @@ Presenter notes go here
 
 ### Diagrams & Math
 
+**Choosing a diagram approach.** Reach in this order, not alphabetically:
+
+1. **Hand-authored SVG/Vue** — [diagram-rough-sketch](references/diagram-rough-sketch.md)
+   (sketchy) or [animation-svg-anime](references/animation-svg-anime.md) (polished,
+   animated). Full control of layout, colour, staging and animation. Default
+   choice for anything that carries the argument of the talk: architecture,
+   flows, mental models.
+2. **Excalidraw** — [diagram-excalidraw](references/diagram-excalidraw.md). When
+   you want to *draw* it rather than code it, and it won't need click staging.
+3. **Mermaid / PlantUML** — only when the diagram is genuinely generated from
+   structure (a real state machine, an ER model, an exact sequence with
+   timings), or when it's throwaway. Auto-layout will fight you on spacing,
+   theming and reveal order, and the output reads as generic.
+
+LaTeX is orthogonal — use it for any real math.
+
 | Feature | Usage | Reference |
 |---------|-------|-----------|
-| Mermaid diagrams | `` ```mermaid `` | [diagram-mermaid](references/diagram-mermaid.md) |
-| PlantUML diagrams | `` ```plantuml `` | [diagram-plantuml](references/diagram-plantuml.md) |
-| LaTeX math | `$inline$` or `$$block$$` | [diagram-latex](references/diagram-latex.md) |
-| Excalidraw drafts | `<Excalidraw drawFilePath="..." />` (addon, `pnpm add slidev-addon-excalidraw`) | [diagram-excalidraw](references/diagram-excalidraw.md) |
 | Hand-drawn sketch diagrams | `rough.svg(el)` in a Vue component (`npm i roughjs`) | [diagram-rough-sketch](references/diagram-rough-sketch.md) |
+| Animated SVG diagrams | anime.js in a Vue component | [animation-svg-anime](references/animation-svg-anime.md) |
+| Excalidraw drafts | `<Excalidraw drawFilePath="..." />` (addon, `pnpm add slidev-addon-excalidraw`) | [diagram-excalidraw](references/diagram-excalidraw.md) |
+| LaTeX math | `$inline$` or `$$block$$` | [diagram-latex](references/diagram-latex.md) |
+| Mermaid diagrams | `` ```mermaid `` — structural/throwaway only | [diagram-mermaid](references/diagram-mermaid.md) |
+| PlantUML diagrams | `` ```plantuml `` — structural/throwaway only | [diagram-plantuml](references/diagram-plantuml.md) |
 
 ### Layout & Styling
 
@@ -150,6 +167,7 @@ Presenter notes go here
 | Cache images | Automatic for remote URLs | [build-remote-assets](references/build-remote-assets.md) |
 | OG image | `seoMeta.ogImage` or `og-image.png` | [build-og-image](references/build-og-image.md) |
 | SEO tags | `seoMeta:` | [build-seo-meta](references/build-seo-meta.md) |
+| Offline / PWA | `pwa: 'build'` (v52.17+, `npm i -D vite-plugin-pwa`) | [build-pwa](references/build-pwa.md) |
 
 **Export prerequisite**: `pnpm add -D playwright-chromium` is required for PDF/PPTX/PNG export. If export fails with a browser error, install this dependency first.
 
@@ -162,6 +180,13 @@ Presenter notes go here
 | Prettier | `prettier-plugin-slidev` | [editor-prettier](references/editor-prettier.md) |
 | Eject theme | `slidev theme eject` | [tool-eject-theme](references/tool-eject-theme.md) |
 | Visual editor (Studio) | Press `E` (addon, `pnpm add -D slidev-addon-studio`) | [tool-studio](references/tool-studio.md) |
+| MCP server (AI agents) | `http://localhost:3030/__mcp` or `slidev mcp` | [tool-mcp](references/tool-mcp.md) |
+
+**Editing slides as an agent**: when a dev server is running, prefer the MCP
+tools over raw markdown edits for slide-level operations (update / insert /
+remove / move). They handle Slidev's compound separators correctly, hot-reload
+instantly, and `slidev-goto-slide` navigates the live browser so you can verify
+the result visually.
 
 ### Lifecycle & API
 
