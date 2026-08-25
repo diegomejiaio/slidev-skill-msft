@@ -1,6 +1,6 @@
 ![Slidev Skill — hand-drawn sketch diagrams and Microsoft Modern styling](docs/banner.png)
 
-# Slidev Skill (extended)
+# Slidev Skill Microsoft Style
 
 An [Agent Skill](https://code.claude.com/docs/en/skills) that teaches AI coding
 agents how to build [Slidev](https://sli.dev) presentations — syntax, layouts,
