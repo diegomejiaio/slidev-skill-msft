@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 300" width="1280" height="300" role="img" aria-label="Slidev Skill Microsoft Style — hand-drawn sketch diagrams transitioning into Fluent-style glass cards">
+<defs>
+<linearGradient id="paper" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%"  stop-color="#F7F2E7"/>
+  <stop offset="38%" stop-color="#F6F1E6"/>
+  <stop offset="62%" stop-color="#F3F2F1"/>
+  <stop offset="100%" stop-color="#EFEEED"/>
+</linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#ffffff" stop-opacity=".95"/>
+  <stop offset="100%" stop-color="#ffffff" stop-opacity=".55"/>
+</linearGradient>
+</defs>
+<rect width="1280" height="300" fill="url(#paper)"/>
+<path d="M1084 300 L1196 182 L1224 182 L1112 300Z" fill="#FFB900" opacity="0.62"/>
+<path d="M1114 300 L1226 182 L1254 182 L1142 300Z" fill="#F25022" opacity="0.62"/>
+<path d="M1144 300 L1256 182 L1284 182 L1172 300Z" fill="#7FBA00" opacity="0.58"/>
+<path d="M1174 300 L1286 182 L1314 182 L1202 300Z" fill="#00A4EF" opacity="0.66"/>
+<path d="M217.6 149.3C241.8 150.2 265.6 149.1 286.3 149.1" stroke="#2B2620" stroke-width="2" fill="none" stroke-linecap="round" opacity=".85"/>
+<path d="M217.1 150.0C241.8 147.2 265.6 147.3 285.0 149.9" stroke="#2B2620" stroke-width="2" fill="none" stroke-linecap="round" opacity=".85"/>
+<path d="M285.9 150.5C282.4 147.4 279.3 143.9 274.4 143.6" stroke="#2B2620" stroke-width="2" fill="none" stroke-linecap="round" opacity=".85"/>
+<path d="M286.1 149.8C283.0 146.4 277.8 146.7 275.7 143.3" stroke="#2B2620" stroke-width="2" fill="none" stroke-linecap="round" opacity=".85"/>
+<path d="M285.5 149.4C282.9 153.5 278.1 153.9 274.7 156.5" stroke="#2B2620" stroke-width="2" fill="none" stroke-linecap="round" opacity=".85"/>
+<path d="M286.2 149.8C283.2 154.0 279.0 155.4 275.1 155.3" stroke="#2B2620" stroke-width="2" fill="none" stroke-linecap="round" opacity=".85"/>
+<path d="M96.5 112.8C133.8 112.6 171.6 111.3 203.5 113.2" stroke="#2B2620" stroke-width="2.4" fill="none" stroke-linecap="round" opacity=".9"/>
+<path d="M96.8 113.5C133.8 113.2 171.6 116.1 203.3 113.2" stroke="#2B2620" stroke-width="2.4" fill="none" stroke-linecap="round" opacity=".9"/>
+<path d="M204.6 112.4C204.7 138.9 201.9 164.8 205.3 186.0" stroke="#2B2620" stroke-width="2.4" fill="none" stroke-linecap="round" opacity=".9"/>
+<path d="M203.1 113.0C201.8 138.9 203.4 164.8 202.8 187.4" stroke="#2B2620" stroke-width="2.4" fill="none" stroke-linecap="round" opacity=".9"/>
+<path d="M205.0 186.5C166.2 186.3 128.4 187.4 96.5 187.3" stroke="#2B2620" stroke-width="2.4" fill="none" stroke-linecap="round" opacity=".9"/>
+<path d="M204.9 188.2C166.2 190.7 128.4 185.3 95.9 187.4" stroke="#2B2620" stroke-width="2.4" fill="none" stroke-linecap="round" opacity=".9"/>
+<path d="M96.4 188.3C95.0 161.1 97.4 135.2 96.9 112.4" stroke="#2B2620" stroke-width="2.4" fill="none" stroke-linecap="round" opacity=".9"/>
+<path d="M94.7 186.9C92.3 161.1 98.2 135.2 95.1 112.0" stroke="#2B2620" stroke-width="2.4" fill="none" stroke-linecap="round" opacity=".9"/>
+<path d="M421.2 149.5C445.8 147.2 469.6 149.7 489.8 150.8" stroke="#2B2620" stroke-width="2" fill="none" stroke-linecap="round" opacity=".85"/>
+<path d="M422.1 150.8C445.8 148.5 469.6 149.4 490.7 150.8" stroke="#2B2620" stroke-width="2" fill="none" stroke-linecap="round" opacity=".85"/>
+<path d="M489.8 150.6C485.4 149.3 481.7 146.9 479.7 143.5" stroke="#2B2620" stroke-width="2" fill="none" stroke-linecap="round" opacity=".85"/>
+<path d="M489.6 150.0C485.0 150.0 482.1 146.1 479.1 143.6" stroke="#2B2620" stroke-width="2" fill="none" stroke-linecap="round" opacity=".85"/>
+<path d="M489.8 150.1C486.1 152.0 482.0 153.7 479.7 156.3" stroke="#2B2620" stroke-width="2" fill="none" stroke-linecap="round" opacity=".85"/>
+<path d="M490.3 149.3C485.3 150.5 481.6 152.9 479.6 156.4" stroke="#2B2620" stroke-width="2" fill="none" stroke-linecap="round" opacity=".85"/>
+<path d="M299.7 112.7C337.8 109.3 375.6 109.4 406.9 113.4" stroke="#2B2620" stroke-width="2.4" fill="none" stroke-linecap="round" opacity=".9"/>
+<path d="M299.2 112.1C337.8 108.8 375.6 110.1 407.6 111.8" stroke="#2B2620" stroke-width="2.4" fill="none" stroke-linecap="round" opacity=".9"/>
+<path d="M406.9 112.6C407.0 138.9 410.9 164.8 406.7 188.0" stroke="#2B2620" stroke-width="2.4" fill="none" stroke-linecap="round" opacity=".9"/>
+<path d="M407.3 112.6C405.1 138.9 403.9 164.8 407.6 186.0" stroke="#2B2620" stroke-width="2.4" fill="none" stroke-linecap="round" opacity=".9"/>
+<path d="M407.9 187.0C370.2 188.3 332.4 189.0 298.9 185.9" stroke="#2B2620" stroke-width="2.4" fill="none" stroke-linecap="round" opacity=".9"/>
+<path d="M408.9 186.1C370.2 186.8 332.4 190.0 298.7 188.2" stroke="#2B2620" stroke-width="2.4" fill="none" stroke-linecap="round" opacity=".9"/>
+<path d="M300.1 185.7C303.0 161.1 301.6 135.2 300.1 114.3" stroke="#2B2620" stroke-width="2.4" fill="none" stroke-linecap="round" opacity=".9"/>
+<path d="M299.4 186.6C300.3 161.1 302.3 135.2 299.1 113.7" stroke="#2B2620" stroke-width="2.4" fill="none" stroke-linecap="round" opacity=".9"/>
+<path d="M625.6 149.4C649.8 152.3 673.6 152.0 694.7 151.0" stroke="#2B2620" stroke-width="2" fill="none" stroke-linecap="round" opacity=".85"/>
+<path d="M626.7 150.5C649.8 149.0 673.6 146.9 693.4 150.0" stroke="#2B2620" stroke-width="2" fill="none" stroke-linecap="round" opacity=".85"/>
+<path d="M693.3 149.7C691.2 146.0 686.2 146.0 682.6 144.3" stroke="#2B2620" stroke-width="2" fill="none" stroke-linecap="round" opacity=".85"/>
+<path d="M694.7 150.8C689.5 149.1 685.7 147.0 683.7 143.8" stroke="#2B2620" stroke-width="2" fill="none" stroke-linecap="round" opacity=".85"/>
+<path d="M693.5 149.5C689.4 150.7 686.3 154.3 683.2 156.6" stroke="#2B2620" stroke-width="2" fill="none" stroke-linecap="round" opacity=".85"/>
+<path d="M694.2 150.5C689.2 150.4 685.6 153.0 682.4 156.2" stroke="#2B2620" stroke-width="2" fill="none" stroke-linecap="round" opacity=".85"/>
+<rect x="504" y="113.0" width="108" height="74" rx="7" fill="#ffffff" opacity=".5"/>
+<path d="M504.4 113.0C541.8 112.1 579.6 114.6 611.5 113.5" stroke="#2B2620" stroke-width="2" fill="none" stroke-linecap="round" opacity=".6"/>
+<path d="M504.8 112.8C541.8 114.2 579.6 111.3 611.8 113.8" stroke="#2B2620" stroke-width="2" fill="none" stroke-linecap="round" opacity=".6"/>
+<path d="M611.4 112.4C613.9 138.9 610.3 164.8 612.7 187.5" stroke="#2B2620" stroke-width="2" fill="none" stroke-linecap="round" opacity=".6"/>
+<path d="M612.8 113.3C613.9 138.9 614.6 164.8 611.7 187.1" stroke="#2B2620" stroke-width="2" fill="none" stroke-linecap="round" opacity=".6"/>
+<path d="M612.8 187.3C574.2 187.3 536.4 185.0 504.0 187.7" stroke="#2B2620" stroke-width="2" fill="none" stroke-linecap="round" opacity=".6"/>
+<path d="M612.5 186.5C574.2 188.4 536.4 186.5 503.6 186.7" stroke="#2B2620" stroke-width="2" fill="none" stroke-linecap="round" opacity=".6"/>
+<path d="M503.6 186.9C503.2 161.1 503.8 135.2 503.4 113.7" stroke="#2B2620" stroke-width="2" fill="none" stroke-linecap="round" opacity=".6"/>
+<path d="M504.1 187.7C504.0 161.1 504.2 135.2 503.9 113.7" stroke="#2B2620" stroke-width="2" fill="none" stroke-linecap="round" opacity=".6"/>
+<path d="M518.0 130.4C530.6 129.0 543.2 132.2 553.9 130.6" stroke="#2B2620" stroke-width="3" fill="none" stroke-linecap="round" opacity=".28"/>
+<path d="M517.6 147.0C538.2 146.3 558.3 147.1 575.9 147.1" stroke="#2B2620" stroke-width="3" fill="none" stroke-linecap="round" opacity=".28"/>
+<path d="M518.1 160.4C534.2 159.0 550.5 159.1 563.9 160.1" stroke="#2B2620" stroke-width="3" fill="none" stroke-linecap="round" opacity=".28"/>
+<path d="M830 150H898" stroke="#605E5C" stroke-width="2.4" stroke-linecap="round" opacity=".8"/>
+<path d="M887 143L898 150L887 157" stroke="#605E5C" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
+<rect x="708" y="113.0" width="108" height="74" rx="9" fill="url(#glass)" stroke="#00A4EF" stroke-width="1.6" opacity=".92"/>
+<rect x="722" y="131.0" width="56" height="6" rx="3" fill="#00A4EF" opacity=".5"/>
+<rect x="722" y="147.0" width="80" height="5" rx="2.5" fill="#8A8886" opacity=".3"/>
+<rect x="722" y="160.0" width="64" height="5" rx="2.5" fill="#8A8886" opacity=".3"/>
+<rect x="912" y="113.0" width="108" height="74" rx="9" fill="url(#glass)" stroke="#7FBA00" stroke-width="1.6" opacity=".92"/>
+<rect x="926" y="131.0" width="56" height="6" rx="3" fill="#7FBA00" opacity=".5"/>
+<rect x="926" y="147.0" width="80" height="5" rx="2.5" fill="#8A8886" opacity=".3"/>
+<rect x="926" y="160.0" width="64" height="5" rx="2.5" fill="#8A8886" opacity=".3"/>
+</svg>

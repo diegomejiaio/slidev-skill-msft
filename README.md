@@ -1,4 +1,4 @@
-![Slidev Skill — hand-drawn sketch diagrams and Microsoft Modern styling](docs/banner.png)
+![Slidev Skill Microsoft Style — hand-drawn sketch diagrams progressing into Fluent-style glass cards](docs/banner.svg)
 
 # Slidev Skill Microsoft Style
 
@@ -120,7 +120,8 @@ references/           # 62 focused references, one topic each
   tool-*.md           #   MCP server, Studio, theme ejection
   api-slide-hooks.md  #   lifecycle hooks
   troubleshooting.md
-docs/banner.png
+docs/banner.svg        # hand-authored, regenerate with banner-gen.py
+docs/banner-gen.py
 ```
 
 References are deliberately small and single-topic so an agent loads only what
